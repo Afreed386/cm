@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <p><b id="out"></b></p>
+    </center>
+    <script>
+       let d = new Date()
+       let date = d.toDateString().toUpperCase();
+       let time = d.toLocaleTimeString()
+       out.innerHTML = date + "<br>" + time 
+    </script>
+</body>
+</html>
+

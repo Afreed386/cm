@@ -1,0 +1,18 @@
+<html>
+<body>
+<h2>The translate Method</h2>
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid grey"></canvas>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle="purple";
+ctx.fillRect(10, 10, 100, 50);
+ctx.translate(20, 20);
+ctx.fillStyle="lime";
+ctx.fillRect(10, 10, 100, 50);
+ctx.translate(20,20);
+ctx.fillStyle="orange";
+ctx.fillRect(10, 10, 100, 50);
+</script>
+</body>
+</html>
